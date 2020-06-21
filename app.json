@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/stick/stick",
+    "pages/index/index",
+    "pages/roll/roll",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

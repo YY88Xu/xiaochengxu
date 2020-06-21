@@ -1,0 +1,23 @@
+<!--pages/roll/roll.wxml-->
+<view class="roll-wrap">
+  <view><image src="/static/horn.png" class="roll-image"></image></view>
+  <view class="text-wrap">
+     <!-- <view wx:if="{{pauseRoll}}" class="textroll">
+      <text class="roll-item">{{rollArr[0]}}</text>
+      <text class="roll-item">{{rollArr[curIndex]}}</text>
+     </view>
+     <view wx:if="{{!pauseRoll}}" class="textroll">
+      <text class="roll-item">{{rollArr[0]}}</text>
+      <text class="roll-item">{{rollArr[curIndex]}}</text>
+     </view> -->
+     <!-- <view class="textroll">
+      <text class="roll-item">{{rollArr[curIndex]}}</text>
+      <text class="roll-item">{{rollArr[nextIndex]}}</text>
+     </view> -->
+    <view class="textRoll">
+      <text class="roll-item">{{rollArr[curIndex]}}</text>
+      <text class="roll-item">{{rollArr[nextIndex]}}</text>
+     </view>
+  </view>
+</view>  
+

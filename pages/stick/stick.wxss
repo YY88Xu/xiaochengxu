@@ -1,0 +1,21 @@
+.wrap{
+  width: 100%;
+  color: wheat;
+  height: 100%;
+  /* overflow: auto; */
+}
+.search-item{
+  height: 500rpx;
+  background-color: blue;
+}
+.top-item{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rpx;
+  z-index: 3;
+  background-color: gray;
+}
+.goods-list{
+  color: white;
+  background-color: red;
+}

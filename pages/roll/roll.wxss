@@ -1,0 +1,70 @@
+/* pages/roll/roll.wxss */
+view.roll-wrap{
+  height: 42rpx;
+  -moz-box-shadow: 0px 6rpx 5rpx #888888; /* 老的 Firefox */
+  box-shadow: 0px 6rpx 5rpx #888888;
+  border-top: 1rpx solid #dcdcdc ;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+image.roll-image{
+  margin: 0 12rpx;
+  width: 24rpx;
+  height: 24rpx;
+}
+text.roll-item{
+  width: calc(100vw - 48rpx);
+  display: inline-block;
+}
+view.text-wrap{
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.textRoll{
+  animation: textRoll 3s linear forwards;
+  -webkit-animation: textRoll 3s linear forwards;
+}
+
+@keyframes textRoll {
+  from{
+    transform: translate3d(290rpx,0,0);
+  }
+  to {
+    transform: translate3d(0,0,0);
+  }
+}
+
+@-webkit-keyframes textRoll {
+  from{
+    -webkit-transform: translate3d(290rpx,0,0);
+  }
+  to {
+    -webkit-transform: translate3d(0,0,0);
+  }
+}
+
+.textPre{
+  animation: textPre 6s linear forwards;
+  -webkit-animation: textPre 6s linear forwards;
+}
+
+@keyframes textPre {
+  from{
+    transform: translate3d(0,0,0);
+  }
+  to {
+    transform: translate3d(calc(-100vw + 48rpx),0,0);
+  }
+}
+
+@-webkit-keyframes textPre {
+  from{
+    -webkit-transform: translate3d(0,0,0);
+  }
+  to {
+    -webkit-transform: translate3d(calc(-100vw + 48rpx),0,0);
+  }
+}
